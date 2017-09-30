@@ -254,4 +254,8 @@ p.footer__social-icons a:hover {
 		padding-top: 70px;
 		padding-bottom: 60px;
 	}
+
+	.button {
+		margin-right: 0px;
+	}
 }
