@@ -1,7 +1,17 @@
+* {
+		-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 img {
 	display: inline-block;
 }
 
+a {
+	-webkit-transition: 0.3s ease-out;
+	-o-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+}
 
 /* ---------------------- Сетка ----------------------*/
 
@@ -128,4 +138,89 @@ header {
 .portfolio-item__text p {
 	margin-top: 0px;
 	margin-bottom: 15px;
+}
+
+
+/*********************************************************************
+					FOOTER
+**********************************************************************/
+
+footer {
+	background-color: #061634;
+	color:#fff;
+	padding-top: 90px;
+	padding-bottom: 190px;
+}
+
+footer p {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+p.footer__name {
+	font-size: 28px;
+	margin-bottom: 10px;
+	line-height: normal;
+}
+
+p.footer__social-icons {
+	color:#fff;
+	font-size: 32px;
+}
+
+p.footer__social-icons a {
+	color:#fff;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+p.footer__social-icons a:last-child {
+	margin-right: 0px;
+}
+
+p.footer__social-icons a:hover {
+	color:#FFE400;
+}
+
+.button {
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	text-decoration: none;
+	font-weight: 700;
+	border:2px #fff solid;
+	border-radius: 50px;
+	padding: 8px 23px 8px 23px;
+	margin-bottom: 13px;
+	-webkit-transition: 0.3s ease-out;
+	-o-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+
+}
+
+.button:hover {
+	color:#061634;
+	background-color: #fff;
+
+}
+
+/*********************************************************************
+					MEDIA
+**********************************************************************/
+
+@media (max-width: 1160px) {
+	.container {
+		width: 100%;
+	}
+
+	.col-4 {
+		width: 100%;
+		margin:0;
+		margin-bottom: 30px;
+		margin-left: 15px;
+		margin-right: 15px;
+		text-align: center;
+
+	}
 }
